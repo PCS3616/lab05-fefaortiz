@@ -1,0 +1,31 @@
+SC QUAD
+HM =0
+
+@ /300
+QUAD K =0
+LOOP LD VARI
+     SB CTE64
+     JZ END
+     LD VARI
+     ML CTE2
+     AD CTE1
+     AD RES
+     MM RES
+POS  MM /000
+     LD POS
+     AD CTE2
+     MM POS
+     LD VARI
+     AD CTE1
+     MM VARI
+     JP LOOP
+
+END RS QUAD
+
+@ /400
+POS   K /0100
+CTE64 K =64
+VARI  K =0
+RES   K =0
+CTE2  K =2
+CTE1  K =1
