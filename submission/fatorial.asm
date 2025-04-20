@@ -8,8 +8,8 @@ CTE1 K =1
 
 @\200
 FACT K =0
-     LD N
-LOOP JZ END
+LOOP LD N
+     JZ END
      ML RES
      MM RES
      LD N
