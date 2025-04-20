@@ -1,5 +1,5 @@
 SC FACT
-HM K =0
+HM =0
 
 @\100
 N    K =0
