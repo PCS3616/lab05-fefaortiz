@@ -11,7 +11,7 @@ LOOP LD VARI
      AD CTE1
      AD RES
      MM RES
-POS  MM /000
+POS  MM /100
      LD POS
      AD CTE2
      MM POS
@@ -23,7 +23,6 @@ POS  MM /000
 END RS QUAD
 
 @ /400
-POS   K /0100
 CTE64 K =64
 VARI  K =0
 RES   K =0
