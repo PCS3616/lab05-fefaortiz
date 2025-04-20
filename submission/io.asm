@@ -1,0 +1,39 @@
+GD /000
+MM NUM1
+GD /000
+GD /000
+MM NUM2
+SC ADD
+HM =0
+
+@ /100
+ADD K =0
+    LD NUM1
+    SB CTE3
+    MM NUM1
+    LD NUM2
+    SB CTE3
+    AD NUM1
+    MM RES
+    ML CTE1K
+    DV CTE1K
+    SB CTEA
+    JN END
+    LD RES
+    SB CTEA
+    AD CTE100
+    MM RES
+    JP END
+
+END LD RES
+    AD CTE3
+    PD /100
+    RS ADD
+
+@ /200
+CTE3   K /3030
+CTE1K  K /1000
+CTE100 K /0100
+NUM1   K =0
+NUM2   K =0
+RES    K =0
