@@ -11,7 +11,7 @@ LOOP LD VARI
      AD CTE1
      AD RES
      MM RES
-POS  MM /100
+POS  MM /102
      LD POS
      AD CTE2
      MM POS
